@@ -1,0 +1,37 @@
+
+.carousel_image1 {
+    object-fit: cover;
+    object-position: 0 50%;
+    height: 600px;
+}
+
+.carousel_image2 {
+    object-fit: cover;
+    object-position: 0 70%;
+    height: 600px;
+}
+
+.text_special_font {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: #FCFCFC;
+}
+
+.text_special_font_black {
+    font-family: 'Fuzzy Bubbles', cursive;
+    color: black;
+}
+
+.content {
+    background-color: #FFD700;
+}
+
+.text_secondary_content {
+    color: #8E4162;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+}
