@@ -35,3 +35,11 @@
     width: 32px;
     height: 32px;
 }
+
+.img_size {
+    height: auto; 
+    width: auto; 
+    max-width: 150px; 
+    max-height: 150px;
+    object-fit: scale-down;
+ }
