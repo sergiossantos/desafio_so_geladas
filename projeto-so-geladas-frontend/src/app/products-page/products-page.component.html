@@ -2,14 +2,16 @@
             <h1>Cervejas</h1>
         </div>
         
-        <div class="container mt-5 ms-5 me-5 mb-5" *ngFor="let produto of produtos" >
-            <div class="col" >
-                <div class="card">
-                    <img src='{{ produto.CAMINHO_IMAGEM }}'  class="card-img-top product_image img_size" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">{{ produto.NOME }}</h5>
-                        <p class="card-text">{{ produto.VALOR }}</p>
-                        <a href="#" class="btn btn-primary">Adicionar</a>
+        <div class="container mt-5 ms-5 me-5 mb-5" >
+            <div class="row">
+                <div class="col" *ngFor="let produto of produtos" >
+                    <div class="card">
+                        <img src='{{ produto.CAMINHO_IMAGEM }}'  class="card-img-top product_image img_size" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">{{ produto.NOME }}</h5>
+                            <p class="card-text">{{ produto.VALOR }}</p>
+                            <a href="#" class="btn btn-primary">Adicionar</a>
+                        </div>
                     </div>
                 </div>
             </div>
